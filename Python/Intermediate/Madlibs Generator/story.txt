@@ -1,0 +1,12 @@
+One day, a <adjective> <noun> decided to <verb> to the <place>.
+On the way, it met a <adjective> <animal> who was carrying a <noun>.
+
+“Why are you so <adjective>?” asked the <animal>.
+
+“I am trying to <verb> before <time_of_day>,” replied the <noun>.
+
+Suddenly, a <adjective> <creature> appeared and shouted,
+“Everyone must <verb> right now!”
+
+Without thinking, they all <verb_past> into the <place>, where they found a <adjective> <object>.
+In the end, they learned that <lesson> is the most important thing of all.
