@@ -2,19 +2,19 @@
 
 Classifies underwater objects as rocks (R) or mines (M) using sonar signal data and machine learning.
 
-## 📋 Project Overview
+## Project Overview
 
 **Problem:** Distinguish between underwater rocks and naval mines based on sonar return signals  
 **Approach:** Binary classification using machine learning algorithms -> Linear Regression
 **Dataset:** Sonar returns bounced off metal cylinder (mines) vs rocks  
 
-## 🎯 Objectives
+## Objectives
 
 - Build a reliable classifier for sonar signals
 - Understand feature importance in sonar data
 - Practice complete ML pipeline from data to model evaluation
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** UCI Machine Learning Repository - Connectionist Bench (Sonar, Mines vs. Rocks)
 - **Size:** 208 samples, 61 features
