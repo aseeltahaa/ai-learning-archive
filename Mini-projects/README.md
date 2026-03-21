@@ -1,14 +1,14 @@
-# Mini Projects 🚀
+# Mini Projects 
 
 A collection of small projects that apply Python, Data Science, and Machine Learning concepts from my Learning Hub. Each project is self-contained and demonstrates practical skills.
 
-## 🔹 Projects Included
+## Projects Included
 
 | Project | Description |
 |---------|-------------|
 | [Sonar Rock vs Mine](./sonar-rock-vs-mine/) | Classifies underwater objects as rocks or mines using sonar signal data |
 
-## 🎯 Purpose
+## Purpose
 
 * Apply theoretical knowledge from [Learning Hub](../Learning-Hub/)
 * Practice data preprocessing, feature extraction, and model building
