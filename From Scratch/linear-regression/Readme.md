@@ -1,7 +1,3 @@
-Got it — you want **exactly the same Markdown style** (with `##`, `>`, code blocks, etc.) and **no LaTeX**, just readable math like you originally wrote. I kept your formatting and only improved the **math explanation and gradient section**.
-
----
-
 # Linear Regression
 
 > Linear Regression is a Supervised Machine Learning Algorithm.

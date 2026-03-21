@@ -5,7 +5,7 @@ Classifies underwater objects as rocks (R) or mines (M) using sonar signal data 
 ## Project Overview
 
 **Problem:** Distinguish between underwater rocks and naval mines based on sonar return signals  
-**Approach:** Binary classification using machine learning algorithms -> Logistic Regression
+**Approach:** Binary classification using machine learning algorithms -> Linear Regression
 **Dataset:** Sonar returns bounced off metal cylinder (mines) vs rocks  
 
 ## Objectives
@@ -37,16 +37,3 @@ Classifies underwater objects as rocks (R) or mines (M) using sonar signal data 
 - **NumPy** - Numerical operations
 - **Scikit-learn** - ML algorithms and preprocessing
 - **Jupyter Notebook** - Interactive development
-
-# Logistic Regression Overview
-Logistic Regression is a model used for binary classification
-1. It takes your input features (like age, salary, etc.) and computes a **weighted sum** (just like linear regression).
-2. Instead of outputting any number, it passes that result through a **sigmoid function**:
-   [
-   \sigma(x) = \frac{1}{1 + e^{-x}}
-   ]
-   This converts the value into a **probability between 0 and 1**.
-3. The model then applies a **threshold** (usually 0.5):
-
-   * If probability ≥ 0.5 → class 1
-   * If probability < 0.5 → class 0
