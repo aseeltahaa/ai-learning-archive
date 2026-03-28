@@ -64,12 +64,3 @@ For each new point:
     Count labels
     Return most common label
 ```
-
----
-
-## Possible Improvements
-
-* Use **KD-Tree / Ball Tree** for faster search
-* Apply **weighted voting** (closer neighbors have more influence)
-* Optimize with **NumPy vectorization**
-* Use cross-validation to choose optimal `k`
