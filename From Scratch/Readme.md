@@ -228,5 +228,6 @@ d/da J(a, b) descrives the slope of the tangent at a specific point
 |---|---|---|
 | Linear Regression | [`linear-regression/`](./linear-regression/) | Predict continuous values by fitting a line through data using gradient descent |
 | Logistic Regression | [`logistic-regression/`](./logistic-regression/) | Binary classification using the sigmoid function and log loss |
+| Lasso Regression |[`lasso-regression/`](./lasso-regression/) | type of linear regression that adds a regularization penalty |
 | Support Vector Machine | [`svm/`](./svm/) | Find the optimal hyperplane that maximizes the margin between classes |
 | K-Nearest Neighbors | [`knn/`](./knn/) | Classify points based on the majority vote of their k closest neighbors |
