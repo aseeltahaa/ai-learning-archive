@@ -30,14 +30,6 @@ Predicts whether a patient is diabetic or non-diabetic using clinical health dat
 ### 4. SVM Model Training
 ### 5. Model Evaluation
 
-## Technologies Used
-
-- **Python 3.11**
-- **Pandas** — Data manipulation
-- **NumPy** — Numerical operations
-- **Scikit-learn** — ML algorithms and preprocessing
-- **Jupyter Notebook** — Interactive development
-
 ## SVM Overview
 
 Support Vector Machine (SVM) is a powerful supervised learning model used for binary classification.
