@@ -64,3 +64,29 @@ For each new point:
     Count labels
     Return most common label
 ```
+
+---
+
+# Choosing Hyperparameter K:
+
+There is no fixed rule for choosing K. The best value depends on the dataset and how the accuracy curve behaves. That is why testing multiple values of K is necessary instead of choosing one blindly.
+
+- **Prefer stability over single high accuracy**
+    
+    Choose a value of K where performance is **consistent**, not just where accuracy briefly peaks.
+    
+- **Small K → Overfitting**
+    - Highly sensitive to noise and outliers
+    - Relies too much on individual data points
+    - Leads to unstable predictions
+- **Large K → Underfitting**
+    - Over-smooths the data
+    - Ignores local patterns
+    - Becomes biased toward the majority class
+- **Increasing K doesn’t always improve performance**
+    
+    After a certain point, performance can **decrease** as the model becomes too simple.
+    
+- **If multiple K values perform similarly**
+    
+    Prefer the **larger K**, since it is more robust and less sensitive to noise.
