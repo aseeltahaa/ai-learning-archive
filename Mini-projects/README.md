@@ -1,4 +1,4 @@
-# Mini Projects 🚀
+# Mini Projects 
 
 A collection of small projects that apply Python, Data Science, and Machine Learning concepts from my Learning Hub. Each project is self-contained and demonstrates practical skills.
 
