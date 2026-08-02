@@ -146,40 +146,10 @@ The learning rate `α` is a hyperparameter that controls how big each update ste
 
 | Learning Rate | Effect                                       |
 | ------------- | -------------------------------------------- |
-| Too high      | Overshoots the minimum — loss may diverge    |
-| Too low       | Very slow convergence — takes too many steps |
+| Too high      | Overshoots the minimum; loss may diverge    |
+| Too low       | Very slow convergence; takes too many steps |
 | Just right    | Converges smoothly and efficiently           |
 
----
-
-## Gradient Descent Variants
-
-| Variant          | Uses                      | Pro                | Con                        |
-| ---------------- | ------------------------- | ------------------ | -------------------------- |
-| Batch            | Entire dataset per update | Stable convergence | Slow on large data         |
-| Stochastic (SGD) | One sample per update     | Fast updates       | Noisy, less stable         |
-| Mini-batch       | Small batch per update    | Balance of both    | Requires tuning batch size |
-
----
-
-## Pseudocode
-
-```
-Initialize a = 0, b = 0
-Set learning rate α and number of iterations
-
-For each iteration:
-    Compute predictions: ŷ = a*X + b
-    Compute loss: MSE = (1/n) * Σ(y - ŷ)^2
-    Compute gradients:
-        da = (-2/n) * Σ X * (y - ŷ)
-        db = (-2/n) * Σ (y - ŷ)
-    Update parameters:
-        a = a - α * da
-        b = b - α * db
-
-Return a, b
-```
 
 ---
 

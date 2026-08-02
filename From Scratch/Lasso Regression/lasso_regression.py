@@ -1,17 +1,6 @@
 import numpy as np
 
 class LassoRegression:
-    """
-    Attributes:
-    learning_rate   : Step size used during gradient descent updates.
-    number_of_iterations : Number of iterations for the gradient descent optimization.
-    lambda_param    : Regularization strength (controls L1 penalty).
-    w               : Weight vector for the features.
-    b               : Bias (intercept) term.
-    m               : Number of training samples.
-    n               : Number of features.
-    """
-
     def __init__(self, learning_rate, number_of_iterations, lambda_param=0.01):
         self.learning_rate = learning_rate
         self.number_of_iterations = number_of_iterations
